@@ -1,0 +1,11 @@
+///week16-2 step1-2 字串換個名字
+#include <stdio.h>
+char line[20];///字母的陣列,字串
+
+int main()
+{
+    printf("Please input a line:");
+    scanf("%s",line);///只讀到空格為止
+    printf("%s\n",line);
+}
+
